@@ -32,9 +32,6 @@ body {
   position: relative;
   align-items: center;
   justify-content: space-between;
-  color: var(--dark-blue-color);
-  background-color: rgb(218, 226, 137);
-  border-radius: 0 0 1rem 1rem;
 
   &__logo {
     img {
@@ -44,7 +41,6 @@ body {
 
     font-size: 3.7rem;
     font-weight: 800;
-    line-height: 3.7rem;
   }
 
   &__menu {
