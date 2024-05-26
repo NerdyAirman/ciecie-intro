@@ -119,12 +119,10 @@ body {
     &__emoji {
       &--horns {
         width: 6.7rem;
-        height: 8.4rem;
       }
 
       &--10 {
         width: 10.9rem;
-        height: 5.9rem;
       }
     }
 
@@ -236,8 +234,8 @@ body {
     }
 
     &__emoji {
-      height: 2.6rem;
       width: 2.6rem;
+      margin-right: 0.4rem;
     }
   }
 
@@ -543,6 +541,7 @@ body {
       &__img {
         width: 100%;
         filter: grayscale(100%);
+        border-radius: 3rem;
         margin-bottom: 3.6rem;
       }
 
@@ -558,6 +557,104 @@ body {
         background: #bbbbbb;
       }
     }
+  }
+}
+
+.about {
+  position: relative;
+  width: 100%;
+  height: 74rem;
+  background: #e8eff0;
+  margin-bottom: 12rem;
+
+  &__header {
+    height: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+
+    &__line {
+      background-color: #cccccc;
+
+      &--1 {
+        width: 50rem;
+        height: 0.05rem;
+      }
+
+      &--2 {
+        width: 0.05rem;
+        height: 4rem;
+      }
+    }
+
+    &__dist {
+      width: 1rem;
+    }
+
+    &__emoji {
+      width: 3.4rem;
+      margin-right: 0.4rem;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    top: 23.6rem;
+    left: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65.6rem;
+    margin-right: 4.8rem;
+    color: var(--light-grey-color);
+
+    font-size: 2rem;
+
+    &__bold {
+      &--black {
+        font-weight: 900;
+      }
+
+      &--orange {
+        font-weight: 800;
+        color: var(--orange-color);
+      }
+
+      &--italic {
+        font-style: italic;
+        font-weight: 700;
+      }
+
+      &--blue {
+        color: #7aa3f3;
+        font-weight: 900;
+        text-decoration: underline;
+      }
+    }
+
+    &__emoji {
+      margin-bottom: 0.7rem;
+      width: 2rem;
+    }
+  }
+
+  &__photo {
+    position: absolute;
+    top: 22.2rem;
+    right: 35rem;
+    width: 51.6rem;
+    height: 28.7rem;
+    border-radius: 3rem;
+  }
+
+  &__button {
+    position: absolute;
+    right: 36.4rem;
+    top: 40.6rem;
+    width: 23.5rem;
   }
 }
 
