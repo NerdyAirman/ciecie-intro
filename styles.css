@@ -489,14 +489,14 @@ body {
   font-weight: 800;
   color: var(--orange-color);
 }
-.about__content__bold--italic {
-  font-style: italic;
-  font-weight: 700;
-}
 .about__content__bold--blue {
   color: #7aa3f3;
   font-weight: 900;
   text-decoration: underline;
+}
+.about__content__bold--italic {
+  font-style: italic;
+  font-weight: 700;
 }
 .about__content__emoji {
   margin-bottom: 0.7rem;
