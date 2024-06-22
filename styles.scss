@@ -137,8 +137,8 @@ body {
 			width: 64.1rem;
 			height: 56.3rem;
 
-			left: 10.2rem;
-			top: 4.3rem;
+			margin-top: 4.3rem;
+			margin-left: 10.2rem;
 
 			background-color: #d2fff7;
 		}
@@ -147,8 +147,8 @@ body {
 			width: 59.1rem;
 			height: 57.9rem;
 
-			left: 89.9rem;
-			top: 27.8rem;
+			margin-top: 27.8rem;
+			margin-left: 89.9rem;
 
 			background-color: #ffd4e9;
 		}
@@ -162,14 +162,14 @@ body {
 		border-radius: 100%;
 
 		&--green {
-			top: 15.3rem;
-			left: 43.8rem;
+			margin-top: 15.3rem;
+			margin-left: 43.8rem;
 			background-color: #bef3ea;
 		}
 
 		&--red {
-			top: 45.5rem;
-			left: 102rem;
+			margin-top: 45.5rem;
+			margin-left: 102rem;
 
 			background-color: #ffdbec;
 		}
@@ -182,8 +182,8 @@ body {
 			width: 99.4rem;
 			height: 50rem;
 
-			top: 27.6rem;
-			left: -33.2rem;
+			margin-top: 27.6rem;
+			margin-left: -33.2rem;
 
 			transform: rotate(40.26deg);
 		}
@@ -192,8 +192,8 @@ body {
 			width: 42.5rem;
 			height: 41.6rem;
 
-			top: 10rem;
-			left: 125.3rem;
+			margin-top: 10rem;
+			margin-left: 125.3rem;
 
 			transform: rotate(-116.64deg);
 		}
@@ -261,6 +261,7 @@ body {
 			background: #fff3e9;
 		}
 
+		//TODO: flex jak tu w about me
 		&--5 {
 			display: flex;
 			justify-content: space-between;
@@ -555,7 +556,6 @@ body {
 }
 
 .about {
-	position: relative;
 	width: 100%;
 	height: 74rem;
 	background: #e8eff0;
@@ -595,19 +595,32 @@ body {
 	}
 
 	&__content {
-		position: absolute;
-		top: 23.6rem;
-		left: 35rem;
-
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
 
-		width: 65.6rem;
-		margin-right: 4.8rem;
+		&__text {
+			margin-top: 23.6rem;
+			margin-left: 35rem;
 
-		color: var(--light-grey-color);
-		font-size: 2rem;
+			width: 65.6rem;
+			margin-right: 4.8rem;
+
+			color: var(--light-grey-color);
+			font-size: 2rem;
+		}
+
+		&__photo {
+			margin-top: 22.2rem;
+			width: 51.6rem;
+			height: 28.7rem;
+			border-radius: 3rem;
+		}
+
+		&__button {
+			margin-top: 40.6rem;
+			margin-left: -25rem;
+			width: 23.5rem;
+		}
+
 
 		&__bold {
 			&--black {
@@ -635,22 +648,6 @@ body {
 			margin-bottom: 0.7rem;
 			width: 2rem;
 		}
-	}
-
-	&__photo {
-		position: absolute;
-		top: 22.2rem;
-		right: 35rem;
-		width: 51.6rem;
-		height: 28.7rem;
-		border-radius: 3rem;
-	}
-
-	&__button {
-		position: absolute;
-		right: 36.4rem;
-		top: 40.6rem;
-		width: 23.5rem;
 	}
 }
 
