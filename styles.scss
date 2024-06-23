@@ -460,11 +460,11 @@ body {
 
 			background: none;
 
-			&__h3 {
+			h3 {
 				margin-bottom: 2.5rem;
 			}
 
-			&__p {
+			p {
 				font-size: 2rem;
 				margin-bottom: 2.5rem;
 			}
@@ -507,7 +507,7 @@ body {
 				margin-right: 1.2rem;
 
 				color: #ffffff;
-				background: #ff774c;
+				background: var(--orange-color);
 
 				&__arrow {
 					margin-left: 1rem;
@@ -522,19 +522,20 @@ body {
 		}
 
 		&__content2 {
-			width: 57.9rem;
+			width: 58rem;
 			background: none;
 
-			&__h3 {
+			h5 {
 				margin-bottom: 1.8rem;
 			}
 
-			&__p {
+			p {
 				font-size: 2rem;
 				margin-bottom: 3.5rem;
+				color: #525665;
 			}
 
-			&__img {
+			img {
 				width: 100%;
 				filter: grayscale(100%);
 				border-radius: 3rem;
@@ -650,7 +651,7 @@ body {
 }
 
 .services {
-	margin-bottom: 12rem;
+	margin-bottom: 4rem;
 
 	&__header {
 		height: 4rem;
@@ -837,6 +838,181 @@ body {
 						width: 75rem;
 						height: 37rem;
 					}
+				}
+			}
+		}
+	}
+}
+
+.testimonials {
+	&__header {
+		margin-bottom: 18rem;
+		height: 4rem;
+		text-align: center;
+		text-transform: uppercase;
+
+		font-size: 2rem;
+		font-weight: 700;
+		letter-spacing: 0.4rem;
+
+		&__line {
+			background-color: #cccccc;
+
+			&--1 {
+				width: 46rem;
+				height: 0.05rem;
+			}
+
+			&--2 {
+				width: 0.05rem;
+				height: 4rem;
+			}
+		}
+
+		&__dist {
+			width: 1rem;
+		}
+
+		&__emoji {
+			width: 3.4rem;
+			margin-right: 0.4rem;
+		}
+	}
+
+	&__content {
+		margin: auto;
+
+		h3 {
+			margin-bottom: 6rem;
+		}
+
+		p {
+			font-size: 2rem;
+			font-weight: 500;
+			color: #525665;
+		}
+
+		width: 124rem;
+		border-radius: 2rem;
+		padding: 15.3rem 9.8rem;
+		background-color: #fff4f0;
+
+		&__person {
+			img {
+				width: 9rem;
+			}
+
+			&__header {
+				display: flex;
+				align-items: center;
+				margin-bottom: 0.5rem;
+
+				&__name {
+					padding-left: 2.2rem;
+				}
+			}
+
+			&__comment {
+				margin-left: 2.4rem;
+				display: flex;
+				align-items: center;
+				gap: 4rem;
+
+				img {
+					width: 4.7rem;
+				}
+
+				p {
+					font-family: Fraunces, sans-serif;
+					font-weight: 400;
+					font-size: 2.2rem;
+					line-height: 3.2rem;
+				}
+			}
+		}
+
+		&__divider {
+			margin-top: 4.3rem;
+			margin-bottom: 5rem;
+			width: 76rem;
+			height: 0.05rem;
+			background-color: #d0a798;
+		}
+	}
+}
+
+.news {
+	margin-bottom: 15rem;
+
+	&__header {
+		height: 4rem;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 18rem;
+
+		font-size: 2rem;
+		font-weight: 700;
+		letter-spacing: 0.4rem;
+
+		&__line {
+			background-color: #cccccc;
+
+			&--1 {
+				width: 46rem;
+				height: 0.05rem;
+			}
+
+			&--2 {
+				width: 0.05rem;
+				height: 4rem;
+			}
+		}
+
+		&__dist {
+			width: 1rem;
+		}
+
+		&__emoji {
+			width: 3.4rem;
+			margin-right: 0.4rem;
+		}
+	}
+
+	&__content {
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		width: 122rem;
+	
+		&__block {
+			width: 58rem;
+			background: none;
+
+			h5 {
+				margin-bottom: 1.8rem;
+			}
+
+			p {
+				font-size: 2rem;
+				margin-bottom: 1.4rem;
+				color: #525665;
+			}
+
+			&__img {
+				width: 100%;
+				border-radius: 3rem;
+				margin-bottom: 2.9rem;
+			}
+
+			&__button {
+				font-size: 1.8rem;
+				font-weight: 700;
+
+				&__arrow {
+					margin-left: 0.5rem;
+					margin-top: -0.3rem;
+					width: 1.8rem;
+					transform: rotate(-135.52deg);
 				}
 			}
 		}
