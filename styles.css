@@ -558,7 +558,59 @@ body {
   background: white;
   border-radius: 2rem;
   border: 1px #e0e0e0 solid;
-  padding: 3rem;
+  padding: 5.6rem 3.4rem 5.7rem;
+}
+.services__tiles__tile h5 {
+  margin-bottom: 1.3rem;
+}
+.services__tiles__tile p {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+  line-height: 128.5%;
+  color: #525665;
+}
+.services__tiles__tile ul {
+  list-style-type: none;
+}
+.services__tiles__tile ul li {
+  position: relative;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 183.5%;
+}
+.services__tiles__tile ul li::before {
+  margin-top: 1.2rem;
+  margin-left: -2.2rem;
+  position: absolute;
+  content: "";
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 100%;
+  background: var(--orange-color);
+}
+.services__tiles__tile__icon {
+  margin-bottom: 2.6rem;
+}
+.services__tiles__tile__icon--1 {
+  width: 3.2rem;
+  height: 5rem;
+}
+.services__tiles__tile__icon--2 {
+  width: 5.5rem;
+}
+.services__tiles__tile__icon--3 {
+  width: 5.3rem;
+}
+.services__tiles__tile__icon--4 {
+  width: 4.4rem;
+}
+.services__tiles__tile__icon--5 {
+  width: 5rem;
+}
+.services__tiles__tile__icon--6 {
+  width: 5.2rem;
 }
 .services__tiles__background {
   position: absolute;
