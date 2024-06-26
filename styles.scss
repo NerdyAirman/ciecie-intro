@@ -44,21 +44,11 @@ body {
 	}
 
 	&__menu {
-		list-style: none;
 		display: flex;
-		padding-left: 0;
-		margin-bottom: 0;
 		font-size: 2rem;
 		font-weight: 400;
 		color: var(--dark-blue-color);
-
-		&__item {
-			margin-right: 3rem;
-
-			&:last-child {
-				margin-right: 0;
-			}
-		}
+		gap: 8rem;
 	}
 }
 
